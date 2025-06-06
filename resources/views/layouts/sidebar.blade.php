@@ -33,6 +33,12 @@
             <span class="ml-1 item-text">Localidades</span>
             </a>
         </li>
+        <li class="nav-item">
+            <a class="nav-link pl-3" href="{{ route('estado-energia.index') }}">
+            <i class="fe fe-map fe-16"></i>
+            <span class="ml-1 item-text">Estado de Energia</span>
+            </a>
+        </li>
     </ul>
   </nav>
 </aside>
