@@ -4,6 +4,7 @@ use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\MunicipioController;
 use App\Http\Controllers\LocalidadController;
 use App\Http\Controllers\EstadoEnergiaController;
+use App\Http\Controllers\DispositivoController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
@@ -23,6 +24,7 @@ Route::middleware('auth')->group(function () {
 Route::get('/municipios', [MunicipioController::class, 'index'])->name('municipios.index');
 Route::resource('localidades', LocalidadController::class);
 Route::resource('estado-energia', EstadoEnergiaController::class);
+Route::resource('dispositivos', DispositivoController::class);
 
 
 require __DIR__.'/auth.php';
