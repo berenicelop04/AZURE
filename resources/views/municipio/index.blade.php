@@ -15,7 +15,7 @@
           <div class="col-12">
             <div class="row align-items-center mb-2">
               <div class="col">
-                <h2 class="h5 page-title">Welcome!</h2>
+                <h2 class="h5 page-title">Municipios</h2>
               </div>
               <div class="col-auto">
                 <form class="form-inline">
@@ -54,5 +54,5 @@
             @endforeach
             </tbody>
             </table></div></div><div class="row"><div class="col-sm-12 col-md-5"><div class="dataTables_info" id="dataTable-1_info" role="status" aria-live="polite" _msttexthash="750360" _msthash="292">Mostrando del 1 al 16 de 63 entradas</div></div><div class="col-sm-12 col-md-7"><div class="dataTables_paginate paging_simple_numbers" id="dataTable-1_paginate"><ul class="pagination"><li class="paginate_button page-item previous disabled" id="dataTable-1_previous"><a href="#" aria-controls="dataTable-1" data-dt-idx="0" tabindex="0" class="page-link" _msttexthash="116246" _msthash="293">Anterior</a></li><li class="paginate_button page-item active"><a href="#" aria-controls="dataTable-1" data-dt-idx="1" tabindex="0" class="page-link" _msttexthash="4459" _msthash="294">1</a></li><li class="paginate_button page-item "><a href="#" aria-controls="dataTable-1" data-dt-idx="2" tabindex="0" class="page-link" _msttexthash="4550" _msthash="295">2</a></li><li class="paginate_button page-item "><a href="#" aria-controls="dataTable-1" data-dt-idx="3" tabindex="0" class="page-link" _msttexthash="4641" _msthash="296">3</a></li><li class="paginate_button page-item "><a href="#" aria-controls="dataTable-1" data-dt-idx="4" tabindex="0" class="page-link" _msttexthash="4732" _msthash="297">4</a></li><li class="paginate_button page-item next" id="dataTable-1_next"><a href="#" aria-controls="dataTable-1" data-dt-idx="5" tabindex="0" class="page-link" _msttexthash="113945" _msthash="298">Próximo</a></li></ul></div></div></div></div>
-        </div>
+                  </div>
   @endsection
